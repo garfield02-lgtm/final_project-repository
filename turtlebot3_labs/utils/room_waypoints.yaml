@@ -1,0 +1,56 @@
+rooms:
+  entryway: 
+    entry_point: [3.16, 0.84]
+    corners:
+      - [2.112, 4.362, 4.362, 2.112] # X Row
+      - [1.3, 1.3, 0.3, 0.3]         # Y Row
+  
+  living_room: 
+    entry_point: [0.0, 0.0]
+    corners:
+      - [-2.738, 2.062, 2.062, -2.738]
+      - [5.5, 5.5, 0.4, 0.4]
+
+  bedroom:
+    entry_point: [-4.0, -2.5]
+    corners:
+      - [-5.088, -2.988, -2.988, -5.088]
+      - [-0.55, -0.55, -4.65, -4.65]
+
+  ensuite:
+    entry_point: [-4.0, -1.0]
+    corners:
+      - [-5.088, -2.988, -2.988, -5.088]
+      - [1.25, 1.25, -3.35, -3.35]
+
+  dining_room:
+    entry_point: [6.0, 3.0]
+    corners:
+      - [4.412, 9.362, 9.362, 4.412]
+      - [5.6, 5.6, 0.45, 0.45]
+
+  kitchen:
+    entry_point: [8.2, 0.3]
+    corners:
+      - [6.962, 9.312, 9.312, 6.962]
+      - [0.2, -4.6, -4.6, -4.6]
+
+  pantry:
+    entry_point: [3.0, 3.5]
+    corners:
+      - [2.262, 4.162, 4.162, 2.262]
+      - [5.6, 5.6, 1.5, 1.5]
+
+navigation_points:
+  general_goal:
+    x: 2.0
+    y: -0.7
+    w: 1.0
+  safety_initial:
+    x: 3.3
+    y: -0.8
+    w: 1.0
+  house_entrance:
+    x: 3.16
+    y: 0.84
+    w: 1.0
